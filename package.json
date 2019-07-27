@@ -5,14 +5,15 @@
   "main": "main.js",
   "author": "Tomasz Wegrzanowski",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package-osx": "electron-packager . 'Penguin Eats' --platform=darwin",
+    "package-windows": "electron-packager . 'Penguin Eats' --platform=win32",
+    "package-linux": "electron-packager . 'Penguin Eats' --platform=linux"
   },
   "devDependencies": {
     "electron": "^4.0.0",
     "electron-packager": "^14.0.3"
   },
   "dependencies": {
-    "finder-sort": "^0.1.0",
-    "jquery": "^3.3.1"
   }
 }
