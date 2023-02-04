@@ -11,8 +11,8 @@
     "package-linux": "electron-packager . 'Penguin Eats' --platform=linux"
   },
   "devDependencies": {
-    "electron": "^18.3.7",
-    "electron-packager": "^14.0.3"
+    "electron": "^22.2.0",
+    "electron-packager": "^17.1.1"
   },
   "dependencies": {
   }
